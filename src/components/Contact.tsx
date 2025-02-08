@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
         </div>
         <div className="flex items-center space-x-4">
           <FaPhoneAlt className="text-gray-600 text-lg" />
-          <span className="text-gray-800 font-semibold">0766333118</span>
+          <span className="text-gray-800 font-semibold">0766333716</span>
         </div>
         <div className="flex items-center space-x-4">
           <FaEnvelope className="text-gray-600 text-lg" />
