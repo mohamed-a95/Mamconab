@@ -2,7 +2,6 @@ import React from "react";
 import {
   FaPhoneAlt,
   FaEnvelope,
-  FaClock,
   FaMapMarkerAlt,
   FaFacebook,
   FaInstagram,

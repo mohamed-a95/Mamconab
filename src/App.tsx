@@ -4,7 +4,6 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import Service from "./components/Service";
 import Contact from "./components/Contact";
-import ScrollIndicator from "./components/ScrollIndicator";
 import Footer from "./components/Footer";
 import Carousel from "./components/Carousel";
 
