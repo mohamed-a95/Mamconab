@@ -34,7 +34,7 @@ const Intro: React.FC = () => {
         </p>
 
         <div className="flex justify-center mt-14 gap-6">
-          <ScrollLink to="about" smooth={true} duration={500}>
+          <ScrollLink to="services" smooth={true} duration={500}>
             <button className="bg-yellow-500 text-black py-3 px-6 font-semibold uppercase hover:bg-yellow-600 rounded-md">
               våra tjänster
             </button>
