@@ -19,7 +19,7 @@ const Intro: React.FC = () => {
       <div className="absolute inset-0 bg-black/65"></div>
 
       <div className="relative flex flex-col justify-center items-center h-full text-white text-center px-6 pt-20 sm:pt-32">
-        <h1 className="text-4xl font-bold uppercase mt-10 sm:mt-0">
+        <h1 className="text-4xl font-bold uppercase ">
           Välkommen till <br />
           Mamcon Stockholm AB
         </h1>
