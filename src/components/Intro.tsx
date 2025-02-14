@@ -1,4 +1,4 @@
-import React from "react";
+mport React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import bkgvideo from "../assets/44890-440261146_small.mp4";
 
@@ -18,7 +18,7 @@ const Intro: React.FC = () => {
 
       <div className="absolute inset-0 bg-black/65"></div>
 
-      <div className="relative flex flex-col justify-center items-center h-full text-white text-center px-6 sm:pt-20">
+      <div className="relative flex flex-col justify-center items-center h-full text-white text-center px-6">
         <h1 className="text-4xl font-bold uppercase">
           Välkommen till <br />
           Mamcon Stockholm AB
