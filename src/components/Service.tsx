@@ -48,9 +48,9 @@ const Service: React.FC = () => {
                 Byggkonsulttjänster
               </h2>
               <p className="text-center text-sm leading-relaxed">
-                Vi erbjuder tjänster inom byggledning, arbetsledning,
-                konstruktion och projektledning. Kontakta oss för mer
-                information!
+                Vi erbjuder expertstöd inom byggledning, arbetsledning, och
+                projektledning. Tveka inte att kontakta oss för att diskutera
+                hur vi kan hjälpa ditt projekt att lyckas!
               </p>
             </div>
 
@@ -64,9 +64,9 @@ const Service: React.FC = () => {
                 Mark och anläggning
               </h2>
               <p className="text-center text-sm leading-relaxed">
-                Vi tillhandahåller heltäckande tjänster inom mark och
-                anläggning. Vår maskinpark inkluderar lastbilar, grävmaskiner
-                och sprängutrustning.
+                Med djup teknisk expertis och lång erfarenhet säkerställer vår
+                konsult att dina mark- och infrastrukturprojekt genomförs
+                effektivt, hållbart och med högsta kvalitet.
               </p>
             </div>
 
@@ -78,8 +78,9 @@ const Service: React.FC = () => {
               />
               <h2 className="uppercase font-bold text-lg mb-2">Stensättning</h2>
               <p className="text-center text-sm leading-relaxed">
-                Våra erfarna stensättare hjälper dig med stenläggning i
-                Stockholm. Kontakta oss för en kostnadsfri offert!
+                Under sommarhalvåret erbjuder vi våra tjänster till
+                privatpersoner i Stockholm som behöver professionell
+                stensättning. Kontakta oss för en kostnadsfri offert!
               </p>
             </div>
           </div>

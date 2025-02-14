@@ -11,16 +11,15 @@ const About: React.FC = () => {
         viewport={{ once: true }}
         className="bg-gray-200 text-center text-black p-10 rounded-lg max-w-4xl w-full shadow-lg"
       >
-        <h3 className="text-sm uppercase tracking-widest text-gray-600">
-          Om oss
-        </h3>
-        <h2 className="text-4xl font-bold text-gray-900 mt-2">Vår vision</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-2">Om oss</h2>
 
         <p className="mt-6 text-lg leading-relaxed max-w-3xl mx-auto">
-          Mamcon AB är din partner inom byggprojektledning och byggledning. Vi
-          är specialiserade på mark- och anläggningsarbeten samt stensättning.
-          Med oss får du högkvalitativa lösningar som tar dina projekt från idé
-          till verklighet.
+          Vi är din expertpartner inom bygg- och projektledning, specialiserade
+          på mark- och anläggningsarbeten, infrastruktur och stensättning. Med
+          bred erfarenhet som byggledare, projektledare, entreprenadingenjör och
+          arbetsledare ser vi till att ditt projekt genomförs effektivt,
+          kostnadssmart och med högsta kvalitet – från planering till
+          färdigställande
         </p>
       </motion.div>
     </div>
