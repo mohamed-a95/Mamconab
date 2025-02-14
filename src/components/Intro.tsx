@@ -27,10 +27,12 @@ const Intro: React.FC = () => {
         <div className="bg-yellow-500 h-[3px] w-[500px] my-4"></div>
 
         <p className="mt-6 px-5 max-w-[700px] text-xl text-center font-normal">
-          Vi är din partner inom byggprojektledning och byggledning,
-          specialiserade på mark- och anläggningsarbeten samt stensättning. Med
-          oss får du högkvalitativa lösningar som tar dina projekt från idé till
-          verklighet.
+          Vi är din expertpartner inom bygg- och projektledning, specialiserade
+          på mark- och anläggningsarbeten, infrastruktur och stensättning. Med
+          bred erfarenhet som byggledare, projektledare, entreprenadingenjör och
+          arbetsledare ser vi till att ditt projekt genomförs effektivt,
+          kostnadssmart och med högsta kvalitet – från planering till
+          färdigställande.
         </p>
 
         <div className="flex justify-center mt-14 gap-6">
