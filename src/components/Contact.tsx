@@ -5,6 +5,7 @@ import {
   FaMapMarkerAlt,
   FaFacebook,
   FaInstagram,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const Contact: React.FC = () => {
@@ -22,7 +23,12 @@ const Contact: React.FC = () => {
         </div>
         <div className="flex items-center space-x-4">
           <FaPhoneAlt className="text-gray-600 text-lg" />
-          <span className="text-gray-800 font-semibold">0766333716</span>
+          <a
+            href="tel:+46766333716"
+            className="text-gray-800 font-semibold hover:underline"
+          >
+            0766 333 716
+          </a>
         </div>
         <div className="flex items-center space-x-4">
           <FaEnvelope className="text-gray-600 text-lg" />
@@ -54,6 +60,15 @@ const Contact: React.FC = () => {
           aria-label="Instagram"
         >
           <FaInstagram />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/mamcon-stockholm-ab/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-700 text-2xl hover:text-blue-900"
+          aria-label="LinkedIn"
+        >
+          <FaLinkedin />
         </a>
       </div>
     </div>
