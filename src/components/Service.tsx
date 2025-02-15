@@ -63,7 +63,7 @@ const Service: React.FC = () => {
               <h2 className="uppercase font-bold text-lg mb-2">
                 Mark och anläggning
               </h2>
-              <p className="text-center text-sm leading-relaxed">
+              <p className="text-center text-sm sm:text-base leading-relaxed">
                 Med djup teknisk expertis och lång erfarenhet säkerställer vår
                 konsult att dina mark- och infrastrukturprojekt genomförs
                 effektivt, hållbart och med högsta kvalitet.
