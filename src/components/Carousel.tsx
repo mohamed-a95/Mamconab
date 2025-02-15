@@ -23,7 +23,6 @@ const logos = [
 const Carousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Automatiskt skift mellan loggor var 4:e sekund
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % logos.length);
@@ -64,7 +63,6 @@ const Carousel: React.FC = () => {
           />
         </motion.div>
 
-        {/* Höger pil (göms på små skärmar) */}
         <button
           onClick={nextSlide}
           className="hidden md:flex absolute right-4 p-3 bg-gray-700 text-white rounded-full opacity-80 hover:opacity-100"
@@ -73,7 +71,6 @@ const Carousel: React.FC = () => {
         </button>
       </div>
 
-      {/* Indikatorprickar */}
       <div className="flex justify-center mt-6 space-x-2">
         {logos.map((_, index) => (
           <div

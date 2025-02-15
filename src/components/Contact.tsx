@@ -41,7 +41,6 @@ const Contact: React.FC = () => {
         </div>
       </div>
 
-      {/* Sociala Medier */}
       <div className="flex space-x-6 mt-8">
         <a
           href="https://www.facebook.com/Mamcon.Stockholm.AB/"

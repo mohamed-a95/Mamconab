@@ -59,7 +59,6 @@ const Header: React.FC = () => {
           ))}
         </ul>
 
-        {/* Hamburgarikon */}
         <div
           className="md:hidden cursor-pointer"
           onClick={() => setMenuOpen(!menuOpen)}

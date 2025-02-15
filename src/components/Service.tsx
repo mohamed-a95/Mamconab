@@ -25,9 +25,7 @@ const Service: React.FC = () => {
       >
         <div className="absolute inset-0 bg-black/80"></div>
 
-        {/* Innehåll för sektionen */}
         <div className="relative flex flex-col items-center text-white px-6">
-          {/* Rubrik */}
           <h1 className="text-4xl font-bold uppercase text-center tracking-wide">
             Våra tjänster
           </h1>

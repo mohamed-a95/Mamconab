@@ -18,7 +18,6 @@ const Intro: React.FC = () => {
 
       <div className="absolute inset-0 bg-black/65"></div>
 
-      {/* Innehåll */}
       <div className="relative flex flex-col justify-center items-center min-h-full text-white text-center px-6 pt-11 max-[560px]:pt-23">
         <h1 className="text-4xl font-bold uppercase leading-tight max-[560px]:text-3xl">
           Välkommen till <br />
