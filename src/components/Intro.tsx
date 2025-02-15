@@ -4,7 +4,7 @@ import bkgvideo from "../assets/44890-440261146_small.mp4";
 
 const Intro: React.FC = () => {
   return (
-    <div className="relative w-full min-h-screen pt-[80px] max-[560px]:pt-[100px]">
+    <div className="relative w-full h-screen overflow-hidden">
       <video
         autoPlay
         loop
@@ -19,7 +19,7 @@ const Intro: React.FC = () => {
       <div className="absolute inset-0 bg-black/65"></div>
 
       {/* Innehåll */}
-      <div className="relative flex flex-col justify-center items-center min-h-full text-white text-center px-6">
+      <div className="relative flex flex-col justify-center items-center min-h-full text-white text-center px-6 pt-20 max-[560px]:pt-28">
         <h1 className="text-4xl font-bold uppercase leading-tight max-[560px]:text-3xl">
           Välkommen till <br />
           Mamcon Stockholm AB
