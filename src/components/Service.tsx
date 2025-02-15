@@ -47,7 +47,7 @@ const Service: React.FC = () => {
               <h2 className="uppercase font-bold text-lg mb-2">
                 Byggkonsulttjänster
               </h2>
-              <p className="text-center text-sm leading-relaxed">
+              <p className="text-center text-sm sm:text-base leading-relaxed">
                 Vi erbjuder expertstöd inom byggledning, arbetsledning, och
                 projektledning. Tveka inte att kontakta oss för att diskutera
                 hur vi kan hjälpa ditt projekt att lyckas!
@@ -77,7 +77,7 @@ const Service: React.FC = () => {
                 className="w-28 h-28 object-cover rounded-full border-4 border-gray-400 mb-4"
               />
               <h2 className="uppercase font-bold text-lg mb-2">Stensättning</h2>
-              <p className="text-center text-sm leading-relaxed">
+              <p className="text-center text-sm sm:text-base leading-relaxed">
                 Under sommarhalvåret erbjuder vi våra tjänster till
                 privatpersoner i Stockholm som behöver professionell
                 stensättning. Kontakta oss för en kostnadsfri offert!
